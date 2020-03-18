@@ -2,8 +2,8 @@ require_relative 'pannier'
 
 class RoadBike
 
-  def initialize
-    @panniers = [Pannier.new, Pannier.new]
+  def initialize(panniers)
+    @panniers = []
     @daily_rate = 15
   end
 
