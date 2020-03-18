@@ -26,4 +26,4 @@ bikes = [
 
 total = PriceCalculator.new(bikes)
 
-puts "Total price: #{total.price}"
+puts "Total price: #{total.order_price}"
